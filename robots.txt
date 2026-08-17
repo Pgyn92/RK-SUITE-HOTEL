@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Allow: /assets/img/
+Allow: /assets/fonts/
+
+# Bloquear páginas de baixo valor para crawl budget
+Disallow: /accessibility.html
+Disallow: /privacy-policy.html
+Disallow: /terms-conditions.html
+Disallow: /pt/acessibilidade.html
+Disallow: /pt/politica-de-privacidade.html
+Disallow: /pt/termos-e-condicoes.html
+
+Sitemap: https://www.rksuitehotel.co.ao/sitemap.xml
